@@ -11,10 +11,8 @@ import { FormGroup } from '@angular/forms';
 export class RegisterComponent implements OnInit {
 
   constructor(){}
-  ngOnInit(): void {
-    
+  ngOnInit(): void { 
   }
-
   registerForm = new FormGroup({
     firstname: new FormGroup(""),
     lastname: new FormGroup(""),
@@ -25,6 +23,7 @@ export class RegisterComponent implements OnInit {
 });
 
 registerSubmit(){
+
   console.log(this.registerForm.value);
 }
 }
