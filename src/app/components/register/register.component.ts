@@ -25,6 +25,7 @@ export class RegisterComponent implements OnInit {
 });
 
 registerSubmit(){
+  
   console.log(this.registerForm.value);
 }
 }
